@@ -1,0 +1,511 @@
+html, body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Poppins';
+}
+
+/* Button */
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.875rem 1.35rem;
+  border-radius: 5px;
+}
+
+a.decorated-link {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+  font-weight: bold;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.navbar .buttons button:first-child {
+  margin-right: 10px;
+}
+
+.navbar .buttons .btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.475rem 1.3rem;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Banner */
+.banner-section {
+  background: #FFFFFF;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.banner-section h6.mini-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 162%;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.banner-section h1.display-1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 0.1em;
+  color: #313131;
+}
+
+.banner-section p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.banner-section .container .btn {
+  width: 236px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #313131;
+  padding: 0.675rem 0.75rem;
+}
+
+.banner-section .main-youtube-video {
+  width: 684px;
+  height: 410px;
+  background: #656262;
+  border-radius: 10px;
+}
+
+.banner-section .main-youtube-video > iframe {
+  border-radius: 10px;
+}
+
+
+/* Stay Informed */
+.stay-informed-section {
+  background: #F8F9FA;;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.stay-informed-section .bg-grey {
+  background: #F8F9FA;
+}
+
+.stay-informed-section .container h1.display-4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #313131;
+}
+
+.stay-informed-section .container p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #313131;
+}
+
+.stay-informed-section .news-content h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.stay-informed-section .news-content .container > .card {
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.stay-informed-section .news-content .card .card-body p.card-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.stay-informed-section .news-content .col-8 button {
+  width: 131px;
+  height: 34px;
+  background: #313131;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.stay-informed-section .blogs-section .card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.stay-informed-section .blogs-section .card .card-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.stay-informed-section .blogs-section .card .card-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.stay-informed-section .blogs-section .card > img.card-img-top {
+  height: 205px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Insights */
+.insights-section {
+  background: #2D2D2D;
+  padding-top: 50px;
+}
+
+.insights-section .container {
+  padding-bottom: 40px;
+}
+
+.insights-section h1.display-2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.insights-section .card {
+  border: 1px solid #365288;
+  border-radius: 12px;
+  height: 508px;
+}
+
+.insights-section .card h5.card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.insights-section .card h6.card-subtitle {
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.insights-section .card p.card-text small.text-muted {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF !important;
+}
+
+.insights-section .card p.card-text.sponsor-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.insights-section .youtube-live-video {
+  width: 280px;
+  height: 215px;
+  background: #BDBDBD;
+  border-radius: 10px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.insights-section .youtube-live-video > iframe {
+  border-radius: 10px;
+}
+
+.insights-section span.event-estimate {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 0.255em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.insights-section .event-details {
+  background: #365288;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.insights-section .event-video {
+  background: #293C5F;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 508px;
+}
+
+.insights-section .last-section {
+  padding: 120px 0px 60px 0px;
+  background: linear-gradient(180deg, #BDC3C7 0%, rgba(44, 62, 80, 0) 100%);
+}
+
+.insights-section .last-section .card {
+  background: #FFFFFF;
+  border-radius: 10px;
+  height: 570px;
+  border: 1px solid #F8F8F8;
+}
+
+.insights-section .last-section .card > .blog-card {
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+.insights-section .last-section .card .card-body {
+  padding-left: 30px;
+}
+
+.insights-section .last-section .card .card-text {
+  padding-top: 30px;
+}
+
+.insights-section .last-section .card img.card-img-top {
+  width: 211px;
+  height: 191px;
+  left: 43px;
+  top: 59px;
+  border-radius: 15px;
+}
+
+.insights-section .last-section .card .card-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 132.5%;
+  color: #000000;
+  padding-top: 30px;
+}
+
+.insights-section .last-section .card .card-body .card-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.155em;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+
+/* Resources Section */
+.resources-section {
+  background: #FFF;
+  padding: 120px 0px;
+}
+
+.resources-section .resource-title {
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+.resources-section .col-7 .card {
+  background: #F8F9FA;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.resources-section .row .row .card {
+  margin-bottom: 3px;
+  border: 1px solid rgb(241 243 244);
+}
+
+.resources-section .col-7 .card img.card-img-top {
+  height: 157px;
+}
+
+.resources-section .col-7 .card .card-body {
+  background: #F8F9FA;
+}
+
+.resources-section .col-7 .card .card-body .card-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #313131;
+}
+
+.resources-section .col-5 h1.display-4 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.resources-section .collapsible-links {
+  padding-left: 70px;
+}
+
+.resources-section .collapsible-links .card {
+  margin-bottom: 7px;
+}
+
+
+/* Footer */
+.footer {
+  padding: 40px 10px;
+  background: #333333;
+  color: #fff;
+}
+
+.footer .list-group-item {
+  border: none;
+  color: #fff;
+  background: #333333;
+}
+
+.footer .row:first-child {
+  margin-bottom: 40px;
+}
+
+.footer .large-icon {
+  font-size: 2.2em;
+}
+
+
+/* Mobiole Devices */
+@media only screen and (min-device-width: 320px) and (max-device-width: 825px) {
+  p {
+    font-size: 14px !important;
+  }
+
+  .navbar-collapse.collapse.show {
+    margin-left: 0px !important;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .nav-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .banner-section h6.mini-title {
+    font-size: 10px;
+  } 
+
+  .banner-section .main-youtube-video {
+    position:relative;
+    height: 300px;
+    width: 350px;
+  }
+
+  .banner-section .main-youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height:100%;
+  }
+
+  .banner-section h1.display-1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .stay-informed-section {
+    padding-top: 0px;
+  }
+
+  .stay-informed-section .col-sm-12.col-md-8-col-lg-8.col-xl-8 button {
+    width: 100%;
+  }
+
+  .insights-section .card {
+    background-color: inherit;
+    height: 549px;
+  }
+
+  .insights-section .event-video {
+    height: auto;
+  }
+
+  .insights-section .youtube-live-video {
+    width: 280px;
+    height: 231px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .insights-section .youtube-live-video > iframe {
+    border-radius: 10px;
+    height: 231px;
+    width: 308px;
+  }
+
+  .insights-section .last-section .card {
+    margin-bottom: 5px;
+  }
+
+  .insights-section .last-section {
+    padding: 38px 0px 60px 0px;
+  }
+
+  .resources-section .row .row .card {
+    margin-bottom: 6px;
+  }
+
+  .resources-section .resource-title {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .resources-section .collapsible-links {
+    padding-left: 0px;
+  }
+
+  .resources-section {
+    padding-bottom: 20px;
+  }
+
+  .footer .large-icon {
+    font-size: 20px;
+  }
+}
